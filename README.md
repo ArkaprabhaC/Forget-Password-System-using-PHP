@@ -10,12 +10,12 @@ Database Set up :
  
 Database will consist of 1 table with following columns:
 
--user_id(type: int, PK, Autoincrement)
--user_name(type: text)
--user_email(type: text)
--user_password(type: text)
--user_token(type: text)
--token_expire(type: datetime)
+- user_id(type: int, PK, Autoincrement)
+- user_name(type: text)
+- user_email(type: text)
+- user_password(type: text)
+- user_token(type: text)
+- token_expire(type: datetime)
  
 
 
@@ -25,6 +25,6 @@ After cloning the files, go to the "includes" folder and change the Database par
 
 Next, open index.php and configure SMTP/POP3 mail server as specified by comments on each line
 
-#Done!
+# Done!
 
 And that is all there's to it! Put it in some of your projects and it's readay to be used. 
